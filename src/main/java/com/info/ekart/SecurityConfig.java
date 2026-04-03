@@ -117,8 +117,8 @@ public class SecurityConfig {
 						// =====================================
 						// 👤 BOTH USER & ADMIN CAN VIEW PRODUCTS
 						// =====================================
-						.requestMatchers("/product-api/products", "/product-api/product/**").hasAnyRole("USER", "ADMIN")
-
+						//.requestMatchers("/product-api/products", "/product-api/product/**").hasAnyRole("USER", "ADMIN")
+						  .requestMatchers("/product-api/products", "/product-api/product/**").hasAnyRole("USER", "ADMIN")
 						// =====================================
 						// 👤 USER ONLY ENDPOINTS
 						// =====================================

@@ -11,4 +11,7 @@ public class EkartConfig {
 	public RestTemplate restTemplate() {
 		return new RestTemplate();
 	}
+
+	//just for testing adding a comment
+	
 }
