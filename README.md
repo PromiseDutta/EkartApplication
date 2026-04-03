@@ -1,4 +1,4 @@
-# Ekart-FA4-Project
+# Ekart-Ecommerce-Project
 🛒 Ekart - E-commerce Backend Application
 📌 Overview
 
